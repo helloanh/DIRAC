@@ -73,9 +73,7 @@ The prototype will be written in a modern web framework--either as Python or Jav
 
 ### Data Query   
 
-[Web Access to DICOM Objects (WADO)](https://www.dicomstandard.org/dicomweb/retrieve-wado-rs-and-wado-uri/) are request objects in DICOM format through the HTTPS protocol. 
-
-
+The application uses the DICOMweb service standard [DICOM PS3.18 9](https://www.dicomstandard.org/dicomweb/) to retrieve single DICOM instances (WADO-URI).  [Web Access to DICOM Objects (WADO)](https://www.dicomstandard.org/dicomweb/retrieve-wado-rs-and-wado-uri/) are request objects in DICOM format through the HTTPS protocol.  
 
 
 ### User Stories
