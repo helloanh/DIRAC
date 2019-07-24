@@ -68,7 +68,8 @@ The prototype has a business layer which allows any authenticated user within th
 
 ### Application Architecture
 
-TBA
+TBA  
+The prototype will be written in a modern web framework--either as Python or Javascript due to better web integration.  
 
 ### User Stories
 
