@@ -12,7 +12,7 @@ The proposal is to create an initial web-based prototype as a cloud application 
 
 ### Requirements 
 
-1. Pull DICOM images form an image repository to a cloud endpoint in AWS:   
+1. Pull DICOM images form an image repository to a cloud endpoint:   
 
 	+ VistA Imaging   
 	+ PACS 
@@ -56,7 +56,6 @@ The DIRAC web-based prototype uses a client – server architecture, where the s
 
 ![web app dicom](img/web-app-dicom.png)   
 
-
 1) Allow a personel from a single test center within the VA hospital network to upload the DICOM file to the cloud DICOM application manager (DAM) that is served in the EC2.  
 2) The DAM, then processes the DICOM files by relevant meta information pertaining to each DICOM file--patient info, date of upload, and convert each file to STL format.  
 3) Display all uploaded STL files onto a HTML5-supported browser with WebGL capability.   
@@ -67,9 +66,17 @@ The prototype platform extracts and processes relevant meta information about th
 The prototype has a business layer which allows any authenticated user within the VA internal network to view a list of existing uploads, and download STL files from the centralized AWS S3 bucket.  
 
 ### Application Architecture
+![app-architecture](img/app.png)
 
 TBA  
 The prototype will be written in a modern web framework--either as Python or Javascript due to better web integration.  
+
+### Data Query   
+
+[Web Access to DICOM Objects (WADO)](https://www.dicomstandard.org/dicomweb/retrieve-wado-rs-and-wado-uri/) are request objects in DICOM format through the HTTPS protocol. 
+
+
+
 
 ### User Stories
 
@@ -107,3 +114,4 @@ The AWS cloud application running in an EC2 instance requires access to DICOM fi
 ## References 
 <a name="fn1">1</a>: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.  
 <a name="fn2">2</a>: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)  
+3: [DICOMweb for RESTful API](https://www.dicomstandard.org/dicomweb/)
