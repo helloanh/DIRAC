@@ -97,7 +97,7 @@ The AWS cloud application running in an EC2 instance requires access to DICOM fi
 1. VistaImaging Server     	
 	+ permissions need to pull files     
 	+ human involvement to pull and convert image files after scanner and MRIs   
-	+ may require DICOM conformance statement   	
+	+ may require [DICOM conformance statement](https://www.dicomstandard.org/patent/)  	
 2. Modalities (image machines iself)     
 	+ access to the compass router    	
 3. PAC platform     
