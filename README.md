@@ -105,5 +105,5 @@ The AWS cloud application running in an EC2 instance requires access to DICOM fi
 	+ This project is currently undergoingthe VIPR process to receive funding and becoem an official project. If we create a prototype, other contractors may not bid on this project.  
 
 ## References 
-<a name="fn1">1</a>: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.
+<a name="fn1">1</a>: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.  
 <a name="fn2">2</a>: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)  
