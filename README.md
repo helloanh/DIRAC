@@ -13,9 +13,10 @@ The proposal is to create an initial web-based prototype as a cloud application 
 ### Requirements 
 
 1. Pull DICOM images form an image repository to a cloud endpoint in AWS:   
-+ VistA Imaging   
-+ PACS 
-+ Direct from the imgaging modality (via Compass Router)    
+
+	+ VistA Imaging   
+	+ PACS 
+	+ Direct from the imgaging modality (via Compass Router)   
 
 2. For this prototype, only pull from one image repository from the image repository locally at the hospital site to the cloud endpoint in AWS (S3 file storage).  
 3. Once the DICOM images are in S3 bucket, trigger the EC2 application to process the DICOM files by extracting relevant meta information pertaining to each DICOM file--patient info, date of upload, and convert each file to STL format.  
@@ -55,10 +56,9 @@ The DIRAC web-based prototype uses a client – server architecture, where the s
 
 ![web app dicom](img/web-app-dicom.png)   
 
-1) Allow a personel from a single test center within the VA hospital network to upload the DICOM file to the cloud DICOM application manager (DAM) that is served in the Ec2 .  
 
+1) Allow a personel from a single test center within the VA hospital network to upload the DICOM file to the cloud DICOM application manager (DAM) that is served in the EC2.  
 2) The DAM, then processes the DICOM files by relevant meta information pertaining to each DICOM file--patient info, date of upload, and convert each file to STL format.  
-
 3) Display all uploaded STL files onto a HTML5-supported browser with WebGL capability.   
 4) allow the authenticated personel to download a STL file of choice onto their local machine.    
 
@@ -66,9 +66,9 @@ The prototype platform extracts and processes relevant meta information about th
 
 The prototype has a business layer which allows any authenticated user within the VA internal network to view a list of existing uploads, and download STL files from the centralized AWS S3 bucket.  
 
-### Application Architecture 
+### Application Architecture
 
-
+TBA
 
 ### User Stories
 
