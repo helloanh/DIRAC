@@ -9,7 +9,7 @@ Interregional collaboration among the VA medicals centers has become an importan
 
 ## Proposal
 
-The proposal is to create an initial web-based prototype as a cloud application and storage solution. The web-based appeach leverages the computing power of the cloud, and less on individual machines like the desktop-based approach. By placing most computing tasks in the cloud, medical sites can mitigate challenges due to limited disk space, memory, and computational power on their local computers.  Furthermore, other universities have used the web-based approach currently. [^2] . 
+The proposal is to create an initial web-based prototype as a cloud application and storage solution. The web-based appeach leverages the computing power of the cloud, and less on individual machines like the desktop-based approach. By placing most computing tasks in the cloud, medical sites can mitigate challenges due to limited disk space, memory, and computational power on their local computers.  Furthermore, other universities have used the web-based approach currently. [^2] 
 
 The goal sof the web-based application are to: 1) allow a personel from a single test center within the VA hospital network to upload the DICOM file to the cloud DICOM application manager (DAM); 2) The DAM, then processes the DICOM files by relevant meta information pertaining to each DICOM file--patient info, date of upload, and convert each file to STL format; 3) display all uploaded STL files onto a HTML5-supported browser with WebGL capability; 4) allow the authenticated personel to download a STL file of choice onto their local machine.  
 
