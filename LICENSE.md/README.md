@@ -1,11 +1,11 @@
 # DIRAC
 
 ## About 
-Dicom Remote Image Analyzer in the Cloud (DIRAC) is prototype of Dicom-to-STL cloud application server and cloud storage,
+Dicom Remote Image Analyzer in the Cloud (DIRAC) is prototype of Dicom-to-STL cloud application server and cloud storage.
 
 ## Background
 
-Interregional collaboration among the VA medicals centers has become an important requirement for high quality health care services.  Many medical centers in different regions cannot communicate and share DICOM and STL imaging for collaboration.  To obtain aDICOM image from one region to another, medical personels must send a request and await the DICOM files through postal mail. 
+Interregional collaboration among the VA medicals centers has become an important requirement for high quality health care services.  Many medical centers in different regions cannot communicate and share DICOM and STL imaging for collaboration.  To obtain a DICOM image from one region to another, medical personels must send a request and await the DICOM files through postal mail. 
 
 ## Proposal
 
@@ -67,5 +67,5 @@ Integration between the cloud layer and the external DICOM server.
 
 ## References
 
-[^1]: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)
+[^1]: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)   
 [^2]: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.
