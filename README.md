@@ -48,7 +48,7 @@ There is no known web-based, cloud solution at the VA.  Here are some proposed t
 
 + [AMI Medical Imaging (AMI) JS ToolKit](https://github.com/FNNDSC/ami) - Open-sourced project from Boston Hospital to display and convert DICOM to STL in JavaScript programming language.   
 
-
++ [Cloud Healthcare API](https://cloud.google.com/healthcare/docs/concepts/api-structure) - Google Cloud's API. Provides industry-standard protocols and formats for ingesting, storing, analyzing, and integrating healthcare data with cloud-based applications. The API can be used for healthcare machine learning applications, data-level integration of healthcare systems, and secure storage and retrieval of various types of healthcare and life science data, including electronic protected health information (ePHI) and other forms of PII.  
 
 ### Cloud Infrastructure
 
