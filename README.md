@@ -8,7 +8,7 @@ Interregional collaboration among the VA medicals centers has become an importan
 
 ## Proposal
 
-The proposal is to create an initial web-based prototype as a cloud application and storage solution. The web-based approach leverages the computing power of the cloud, and less on individual machines like the desktop-based approach. By placing most computing tasks in the cloud, medical sites can mitigate challenges due to limited disk space, memory, and computational power on their local computers.  Furthermore, other universities have used the web-based approach successfully. [^2] 
+The proposal is to create an initial web-based prototype as a cloud application and storage solution. The web-based approach leverages the computing power of the cloud, and less on individual machines like the desktop-based approach. By placing most computing tasks in the cloud, medical sites can mitigate challenges due to limited disk space, memory, and computational power on their local computers.  Furthermore, other universities have used the web-based approach successfully. <sup>[1](#fn1)</sup>
 
 ### Requirements 
 
@@ -42,7 +42,7 @@ There is no known web-based, cloud solution at the VA.  Here are some proposed t
 
 + WebGL -  WebGL will make possible to render 3D models in real time on the web browser with the computational capabilities of the new smartphones and tablets.          
 
-+ Amazon Simple Storage Service (S3) - allows cloud data storage of large files.  Users can upload files up to 5TB in per single PUT upload, or in multipart for files larger than 5TB. [^1] It also offers easy solutions to develop HIPAA compliant medical applications. The typical DICOM medical image is approximately a gigabyte per subject. Basically, the Amazon infrastructure offers solutions for: Identification & Authentication, Authorized Privileges & Access Control, Confidentiality, Integrity, Accountability, Security and Protection, Disaster Recovery.    
++ Amazon Simple Storage Service (S3) - allows cloud data storage of large files.  Users can upload files up to 5TB in per single PUT upload, or in multipart for files larger than 5TB. <sup>[2](#fn2)</sup> It also offers easy solutions to develop HIPAA compliant medical applications. The typical DICOM medical image is approximately a gigabyte per subject. Basically, the Amazon infrastructure offers solutions for: Identification & Authentication, Authorized Privileges & Access Control, Confidentiality, Integrity, Accountability, Security and Protection, Disaster Recovery.    
 
 + Amazon Elastic Compute Cloud (Amazon EC2) - The Virtual machine to run the main application that controls the logic of authentication user login,intaking user file uploads, direct the uploads to S3 bucket, extract meta information and segment DICOM to STL, display existing STL files repository in S3 to the web browser, and signing out user.  
 
@@ -104,6 +104,6 @@ The AWS cloud application running in an EC2 instance requires access to DICOM fi
 6. Possible conflict of interest (COI)
 	+ This project is currently undergoingthe VIPR process to receive funding and becoem an official project. If we create a prototype, other contractors may not bid on this project.  
 
-## References
-[^1]: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)   
-[^2]: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.
+## References 
+<a name="fn1">1</a>: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.
+<a name="fn2">2</a>: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)  
