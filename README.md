@@ -89,27 +89,20 @@ As a user I can ...
 The AWS cloud application running in an EC2 instance requires access to DICOM file storage on the medical facility.  There are currently 3 possible endpoints:    
 
 1. VistaImaging Server     	
-+ permissions need to pull files     
-+ human involvement to pull and convert image files after scanner and MRIs   
-+ may require DICOM conformance statement 
-		
+	+ permissions need to pull files     
+	+ human involvement to pull and convert image files after scanner and MRIs   
+	+ may require DICOM conformance statement   	
 2. Modalities (image machines iself)     
-+ access to the compass router    
-		
+	+ access to the compass router    	
 3. PAC platform     
-+ The PACS platforms in the cloud only consider data storage. Data must be stored and accessed via HIPAA (Health Insurance Portability and Accountability Act of 1996)   
-
+	+ The PACS platforms in the cloud only consider data storage. Data must be stored and accessed via HIPAA (Health Insurance Portability and Accountability Act of 1996)   
 4. Aggressive Timeline to Launch 
-
-+ October 1st is an ambitious launch date, considering so many unknowns on integration between local DICOM file storage and cloud application and storage.  
-+ There is only one software developer on the team with 50% of contracted allocation to the project.  
-
+	+ October 1st is an ambitious launch date, considering so many unknowns on integration between local DICOM file storage and cloud application and storage.  
+	+ There is only one software developer on the team with 50% of contracted allocation to the project.  
 5. Unclear technical assessment for integration between the cloud layer and the external DICOM server.  
-
 6. Possible conflict of interest (COI)
-+ This project is currently undergoingthe VIPR process to receive funding and becoem an official project. If we create a prototype, other contractors may not bid on this project.  
+	+ This project is currently undergoingthe VIPR process to receive funding and becoem an official project. If we create a prototype, other contractors may not bid on this project.  
 
 ## References
-
 [^1]: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)   
 [^2]: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.
