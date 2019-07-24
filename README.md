@@ -85,7 +85,7 @@ As a user I can ...
 + logout of the system   
 
 
-## Challenges Limitation
+## Challenges/Limitation
 
 The AWS cloud application running in an EC2 instance requires access to DICOM file storage on the medical facility.  There are currently 3 possible endpoints:    
 
