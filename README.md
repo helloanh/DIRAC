@@ -42,29 +42,33 @@ The DIRAC web-based prototype uses a client – server architecture, where the s
 Main user: medical staff within a single test region in the VA hospital network 
 
 As a user I can ...  
+
 	- login to the AWS cloud application with a given credential on a web portal 
 	- upload a DICOM image to the server   
 	- view a list if preuploaded DICOM images name in the centralized file server on a web page    
 	- preview the STL image as 3d rendering on the web browser   
-	- select an from the list and download the file in DICOM and STL formats, along with their meta information     
+	- select an from the list and download the file in DICOM and STL formats, along with their meta information  
 	- logout of the system   
 
 
 ## Limitation
 
-The AWS cloud application running in an EC2 instance requires access to DICOM file storage on the medical facility.  There are currently 3 possible endpoints:   
-	1. VistaImaging Server
+The AWS cloud application running in an EC2 instance requires access to DICOM file storage on the medical facility.  There are currently 3 possible endpoints:    
+
+	1. VistaImaging Server   
+	
 		- permissions need to pull files   
 		- segmentation in cloud (conversion process to convert dice to stl, there are existing softwares)   
 		- human involvement to pull and convert image files after scanner and MRIs   
-		- try a region/vision, read access to vista imaging   
-	2. Modalities (image machines iself)   
+		- try a region/vision, read access to vista imaging    
+		
+	2. Modalities (image machines iself)     
 		- access to the compass router    
-	3. PAC platform   
+		
+	3. PAC platform     
 		- The PACS platforms in the cloud only consider data storage. Data must be stored and accessed via HIPAA (Health Insurance Portability and Accountability Act of 1996)   
 
 Integration between the cloud layer and the external DICOM server.  
-
 
 ## References
 
