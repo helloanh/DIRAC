@@ -115,3 +115,4 @@ The AWS cloud application running in an EC2 instance requires access to DICOM fi
 <a name="fn1">1</a>: [Server-based Approach to Web Visualization of Integrated Three-dimensional Brain Imaging Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC551546/). The University of Washington has already adopted web-based applications in the departments of Psychology, Speech & Hearing Science, Neurological Surgery, and Radiology.  
 <a name="fn2">2</a>: [Amazon S3 Frequently Asked Questions](https://aws.amazon.com/s3/faqs/)  
 3: [DICOMweb for RESTful API](https://www.dicomstandard.org/dicomweb/)
+4: [Osimis Collaboration around medical imaging in the cloud](https://www.osimis.io/en/blog/2016/05/26/collaboration-around-medical-imaging-in-the-cloud.html)
