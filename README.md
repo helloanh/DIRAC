@@ -40,6 +40,8 @@ These deskop-based applications are currently used by the VA.
 
 There is no known web-based, cloud solution at the VA.  Here are some proposed technologies, toolkits, and/or frameworks to research and integrate with the EC2 cloud application:    
 
++ [Orthanc DICOM Server](https://www.orthanc-server.com/index.php) Belgium-based open-sourced DICOM Server that is compatible with PACS medical server and interhospital collaboration interface. Orthanc comes with its own REST API. This API allows full CRUD operations (create, read, update and delete) on the set of DICOM resources that Orthanc stores, together with commands that trigger calls to the DICOM protocol (C-Echo SCU/SCP, C-Store SCU/SCP, C-Find SCU/SCP, C-Move SCU/SCP).  
+
 + WebGL -  WebGL will make possible to render 3D models in real time on the web browser with the computational capabilities of the new smartphones and tablets.          
 
 + Amazon Simple Storage Service (S3) - allows cloud data storage of large files.  Users can upload files up to 5TB in per single PUT upload, or in multipart for files larger than 5TB. <sup>[2](#fn2)</sup> It also offers easy solutions to develop HIPAA compliant medical applications. The typical DICOM medical image is approximately a gigabyte per subject. Basically, the Amazon infrastructure offers solutions for: Identification & Authentication, Authorized Privileges & Access Control, Confidentiality, Integrity, Accountability, Security and Protection, Disaster Recovery.    
